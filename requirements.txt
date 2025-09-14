@@ -1,0 +1,19 @@
+# Deep Learning
+torch>=2.1
+torchvision>=0.16
+
+# Image/Video processing
+opencv-python>=4.8
+# Se servono moduli extra di OpenCV (es. tracking avanzato), usare al posto di sopra:
+# opencv-contrib-python>=4.8
+
+# Imaging & GUI
+pillow>=10.0
+matplotlib>=3.7
+tk  # tkinter è incluso in Python su Windows/Mac; su Linux va installato via sistema
+
+# Utils & data handling
+numpy>=1.23
+tqdm>=4.66
+requests>=2.31
+urllib3>=2.0
